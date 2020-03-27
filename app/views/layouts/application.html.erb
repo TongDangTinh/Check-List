@@ -10,6 +10,12 @@
       "data-turbolinks-track": "reload" %>
   </head>
   <body>
+    <div class="container">
+      <%= render "layouts/header" %>
+    </div>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
